@@ -1,4 +1,78 @@
-<section id="emrler" class="max-w-4xl mx-auto px-4 py-20 border-t border-gray-900">
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WraithBot — Peşəkar Discord Qoruma və Güvənlik Sistemi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #080c14;
+        }
+        .neon-text {
+            text-shadow: 0 0 15px #a855f7, 0 0 30px #6366f1;
+        }
+        .neon-border:hover {
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+        }
+    </style>
+</head>
+<body class="text-gray-200 font-sans antialiased">
+
+    <nav class="border-b border-gray-900 bg-gray-950/70 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl font-black tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-400 neon-text">WRAİTHBOT</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-medium text-gray-400">
+                <a href="#statistika" class="hover:text-purple-400 transition">Statistika</a>
+                <a href="#emrler" class="hover:text-purple-400 transition">Əmrlər</a>
+                <a href="#ozellikler" class="hover:text-purple-400 transition">Özəlliklər</a>
+                <a href="https://discord.com" target="_blank" class="hover:text-purple-400 transition">Dəstək Serveri</a>
+            </div>
+            <div>
+                <a href="https://discord.com" target="_blank" class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-full font-semibold shadow-lg shadow-purple-600/30 transition duration-300">
+                    Giriş Et
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="max-w-5xl mx-auto px-4 pt-28 pb-20 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6">
+            Serverinizi <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-indigo-400">WraithBot</span> ilə Qoruyun!
+        </h1>
+        <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+            Arxa fonda bir kölgə kimi səssiz, amma hücumlara qarşı bir qalxan kimi güclü. İcazəsiz kanal silinmələrini, kütləvi ban cəhdlərini saniyəsində darmadağın edin.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <a href="https://discord.com" target="_blank" class="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-xl shadow-purple-600/20 transition transform hover:-translate-y-0.5">
+                WraithBot-u Dəvət Et
+            </a>
+            <a href="#ozellikler" class="w-full sm:w-auto border border-gray-800 bg-gray-900/40 hover:bg-gray-800 text-gray-300 px-8 py-4 rounded-xl text-lg font-bold transition">
+                Sistemləri İncələ
+            </a>
+        </div>
+    </section>
+
+    <section id="statistika" class="max-w-6xl mx-auto px-4 py-12 border-t border-gray-900/50">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+            <div class="p-6 rounded-2xl bg-gray-950/40 border border-gray-900/80 backdrop-blur-sm">
+                <div class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400 mb-2">5+</div>
+                <div class="text-xs uppercase tracking-widest text-gray-500 font-bold">Aktiv Server</div>
+            </div>
+            <div class="p-6 rounded-2xl bg-gray-950/40 border border-gray-900/80 backdrop-blur-sm">
+                <div class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400 mb-2">100+</div>
+                <div class="text-xs uppercase tracking-widest text-gray-500 font-bold">Qorunan İstifadəçi</div>
+            </div>
+            <div class="p-6 rounded-2xl bg-gray-950/40 border border-gray-900/80 backdrop-blur-sm">
+                <div class="text-4xl md:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400 mb-2">99.9%</div>
+                <div class="text-xs uppercase tracking-widest text-gray-500 font-bold">Uptime (Aktivlik)</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="emrler" class="max-w-4xl mx-auto px-4 py-20 border-t border-gray-900">
         <div class="text-center mb-16">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Bot Komandaları</h2>
             <p class="text-gray-400">WraithBot-un bütün gücünü bu əmrlərlə idarə edin.</p>
@@ -38,3 +112,34 @@
             </div>
         </div>
     </section>
+
+    <section id="ozellikler" class="max-w-6xl mx-auto px-4 py-20 border-t border-gray-900">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Maksimum Müdafiə Modulları</h2>
+            <p class="text-gray-400">WraithBot serverinizdəki hər bir dəyişikliyi anlıq olaraq nəzarətdə saxlayır.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-purple-600/10 flex items-center justify-center text-purple-400 text-2xl font-bold mb-6">📁</div>
+                <h3 class="text-xl font-bold text-white mb-3">Kanal Qoruması</h3>
+                <p class="text-gray-400 leading-relaxed">Güvənli siyahıda olmayan biri kanal sildiyi an WraithBot həmin kanalı bütün tənzimləmələri ilə dərhal bərpa edir.</p>
+            </div>
+            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-indigo-600/10 flex items-center justify-center text-indigo-400 text-2xl font-bold mb-6">⚡</div>
+                <h3 class="text-xl font-bold text-white mb-3">Anti-Raid / Kütləvi Ban</h3>
+                <p class="text-gray-400 leading-relaxed">Hesabı oğurlanmış adminlər serverdəkiləri banlamağa çalışarsa, bot hücum edənin özünü serverdən uzaqlaşdırır.</p>
+            </div>
+            <div class="p-8 rounded-2xl bg-gray-950/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
+                <div class="w-12 h-12 rounded-xl bg-fuchsia-600/10 flex items-center justify-center text-fuchsia-400 text-2xl font-bold mb-6">🤖</div>
+                <h3 class="text-xl font-bold text-white mb-3">İcazəsiz Bot Əngəli</h3>
+                <p class="text-gray-400 leading-relaxed">Serverə gizlicə daxil edilən üçüncü tərəf bədxah botlar serverə zərər vermədən dərhal qovulur.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t border-gray-950 bg-gray-950 py-8 text-center text-sm text-gray-600">
+        <p>&copy; 2026 WraithBot. Bütün hüquqlar qorunur.</p>
+    </footer>
+
+</body>
+</html>
