@@ -12,6 +12,9 @@
         .neon-text {
             text-shadow: 0 0 15px #a855f7, 0 0 30px #6366f1;
         }
+        .neon-border:hover {
+            box-shadow: 0 0 20px rgba(168, 85, 247, 0.3);
+        }
     </style>
 </head>
 <body class="text-gray-200 font-sans antialiased">
@@ -42,6 +45,14 @@
         <p class="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
             Arxa fonda bir kölgə kimi səssiz, amma hücumlara qarşı bir qalxan kimi güclü. İcazəsiz kanal silinmələrini, kütləvi ban cəhdlərini saniyəsində darmadağın edin.
         </p>
+        <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
+            <a href="https://discord.com" target="_blank" class="w-full sm:w-auto bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-xl text-lg font-bold shadow-xl shadow-purple-600/20 transition transform hover:-translate-y-0.5">
+                WraithBot-u Dəvət Et
+            </a>
+            <a href="#ozellikler" class="w-full sm:w-auto border border-gray-800 bg-gray-900/40 hover:bg-gray-800 text-gray-300 px-8 py-4 rounded-xl text-lg font-bold transition">
+                Sistemləri İncələ
+            </a>
+        </div>
     </section>
 
     <section id="statistika" class="max-w-6xl mx-auto px-4 py-12 border-t border-gray-900/50">
@@ -68,34 +79,34 @@
         </div>
         
         <div class="space-y-4">
-            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 transition duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                    <h4 class="text-purple-400 font-mono text-xl font-bold mb-1">!yardım</h4>
-                    <p class="text-white text-base font-medium">Kömək Menyusu</p>
+                    <h4 class="text-white text-xl font-bold mb-1">Kömək Menyusu</h4>
+                    <p class="text-purple-400 text-xs font-mono">İstifadəsi: !yardım</p>
                 </div>
                 <p class="text-sm text-gray-400 sm:max-w-md text-left sm:text-right">Botun bütün komandaları haqqında ümumi məlumat qutusunu açır.</p>
             </div>
 
-            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 transition duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                    <h4 class="text-purple-400 font-mono text-xl font-bold mb-1">!rol-log <span class="text-gray-500 text-sm font-sans font-normal">#kanal</span></h4>
-                    <p class="text-white text-base font-medium">Log Tənzimləmə</p>
+                    <h4 class="text-white text-xl font-bold mb-1">Log Tənzimləmə</h4>
+                    <p class="text-purple-400 text-xs font-mono">İstifadəsi: !rol-log #kanal</p>
                 </div>
                 <p class="text-sm text-gray-400 sm:max-w-md text-left sm:text-right">Müdafiə loqlarının hansı kanala düşəcəyini təyin edir.</p>
             </div>
 
-            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-200/5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 transition duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                    <h4 class="text-purple-400 font-mono text-xl font-bold mb-1">!guvenli <span class="text-gray-500 text-sm font-sans font-normal">@istifadəçi</span></h4>
-                    <p class="text-white text-base font-medium">Bəyaz Siyahı (White-list)</p>
+                    <h4 class="text-white text-xl font-bold mb-1">Bəyaz Siyahı (White-list)</h4>
+                    <p class="text-purple-400 text-xs font-mono">İstifadəsi: !guvenli @istifadəçi</p>
                 </div>
                 <p class="text-sm text-gray-400 sm:max-w-md text-left sm:text-right">Güvəndiyiniz adminləri müdafiə sistemindən istisna etmək üçün istifadə olunur.</p>
             </div>
 
-            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div class="p-6 rounded-xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 transition duration-300 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
-                    <h4 class="text-purple-400 font-mono text-xl font-bold mb-1">!ban-limit <span class="text-gray-500 text-sm font-sans font-normal">[say]</span></h4>
-                    <p class="text-white text-base font-medium">Anti-Raid Limiti</p>
+                    <h4 class="text-white text-xl font-bold mb-1">Anti-Raid Limiti</h4>
+                    <p class="text-purple-400 text-xs font-mono">İstifadəsi: !ban-limit [say]</p>
                 </div>
                 <p class="text-sm text-gray-400 sm:max-w-md text-left sm:text-right">Bir adminin qısa müddətdə maksimum neçə nəfəri banlaya biləcəyini təyin edir.</p>
             </div>
@@ -108,20 +119,20 @@
             <p class="text-gray-400">WraithBot serverinizdəki hər bir dəyişikliyi anlıq olaraq nəzarətdə saxlayır.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800">
+            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
                 <div class="w-12 h-12 rounded-xl bg-purple-600/10 flex items-center justify-center text-purple-400 text-2xl font-bold mb-6">📁</div>
                 <h3 class="text-xl font-bold text-white mb-3">Kanal Qoruması</h3>
-                <p class="text-gray-400 leading-relaxed text-sm">Güvənli siyahıda olmayan biri kanal sildiyi an WraithBot həmin kanalı bütün tənzimləmələri ilə dərhal bərpa edir.</p>
+                <p class="text-gray-400 leading-relaxed">Güvənli siyahıda olmayan biri kanal sildiyi an WraithBot həmin kanalı bütün tənzimləmələri ilə dərhal bərpa edir.</p>
             </div>
-            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800">
+            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
                 <div class="w-12 h-12 rounded-xl bg-indigo-600/10 flex items-center justify-center text-indigo-400 text-2xl font-bold mb-6">⚡</div>
                 <h3 class="text-xl font-bold text-white mb-3">Anti-Raid / Kütləvi Ban</h3>
-                <p class="text-gray-400 leading-relaxed text-sm">Hesabı oğurlanmış adminlər serverdəkiləri banlamağa çalışarsa, bot hücum edənin özünü serverdən uzaqlaşdırır.</p>
+                <p class="text-gray-400 leading-relaxed">Hesabı oğurlanmış adminlər serverdəkiləri banlamağa çalışarsa, bot hücum edənin özünü serverdən uzaqlaşdırır.</p>
             </div>
-            <div class="p-8 rounded-2xl bg-gray-900/20 border border-gray-800">
+            <div class="p-8 rounded-2xl bg-gray-950/20 border border-gray-800 hover:border-purple-500/40 neon-border transition duration-300">
                 <div class="w-12 h-12 rounded-xl bg-fuchsia-600/10 flex items-center justify-center text-fuchsia-400 text-2xl font-bold mb-6">🤖</div>
                 <h3 class="text-xl font-bold text-white mb-3">İcazəsiz Bot Əngəli</h3>
-                <p class="text-gray-400 leading-relaxed text-sm">Serverə gizlicə daxil edilən üçüncü tərəf bədxah botlar serverə zərər vermədən dərhal qovulur.</p>
+                <p class="text-gray-400 leading-relaxed">Serverə gizlicə daxil edilən üçüncü tərəf bədxah botlar serverə zərər vermədən dərhal qovulur.</p>
             </div>
         </div>
     </section>
